@@ -1,4 +1,26 @@
-"""CircuitPython LED blink example"""
+# SPDX-FileCopyrightText: Tim Cocks 2020
+#
+# SPDX-License-Identifier: MIT
+
+"""
+`digitalio_blink_example`
+====================================================
+
+CircuitPython LED blink example.
+
+* Author(s): Tim Cocks
+
+Implementation Notes
+--------------------
+
+**Hardware:**
+
+**Software and Dependencies:**
+
+* Adafruit CircuitPython firmware for the supported boards:
+  https://github.com/adafruit/circuitpython/releases
+
+"""
 import time
 import board
 from digitalio import DigitalInOut, Direction
